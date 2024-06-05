@@ -3,7 +3,7 @@ from typing import List
 # for prefix
 
 acc: int = 1
-arr = [-1,1,0,-3,3]
+arr = [1,2,3,4]
 # Output: [24,12,8,6]
 prefix_products = [None]*len(arr)
 prefix_products[0] =  1
